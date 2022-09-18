@@ -1,0 +1,51 @@
+#main{
+    position: absolute;
+    height: 700px;
+    width: 400px;   
+    left: 41%;
+    border-radius: 50px;
+}
+
+#main{
+    background-color: rgb(255, 69, 69);
+}
+
+body{
+    background-color: aquamarine;
+}
+
+#btn1{
+    margin: 5px;
+}
+
+#txt1{
+    margin: 10px;
+}
+
+#bruh{
+    padding-left: 10px;
+}
+
+
+h1{
+    padding-left: 70px;
+}
+
+#one{
+   
+    color: aqua;
+}
+
+#two{
+    
+    color: aqua;
+}
+
+#submain{
+    display:inline-block;
+}
+
+.para{
+    font-size: 20px;
+    cursor: pointer;
+}
