@@ -14,7 +14,20 @@ add.addEventListener('click', function(){
 
     para.addEventListener('click', function(){
         para.style.textDecoration = 'line-through';
+
+        para.addEventListener('click', function(){
+            para.style.textDecoration = ""
+        })
     })
+    //para.addEventListener('click', function(){If(para.style.textDecoration = "")
+   // {
+    // para.style.textDecoration = 'line-through'
+    //}
+    //Else 
+    //{
+    // para.style.textDecoration = ""
+   // }
+   // }) 
 
     para.addEventListener('dblclick', function(){
        list.removeChild(para);     
