@@ -20,11 +20,11 @@ save.addEventListener('click', function(){
     
     para.addEventListener('click', function(){if(para.style.textDecoration === "")
     {
-     para.style.textDecoration == 'line-through'
+     para.style.textDecoration =  'line-through'
     }
     else 
     {
-     para.style.textDecoration == ""
+     para.style.textDecoration = ""
     }
 })   
           
